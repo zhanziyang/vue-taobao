@@ -69,7 +69,7 @@
     .tmall-menu-panel-li {
         display: inline-block;
         flex: 1;
-        flex-basis: 67px;
+        width: 20%;
     }
     
     .tmall-menu-panel-href {

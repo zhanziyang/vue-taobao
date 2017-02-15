@@ -1,6 +1,6 @@
 <template>
  <div>
-     <slider :items="items" :speed="0.3" :delay="0.1" :pause="false" :autoplay="true" :dots="true" :arrows="false"></slider>
+     <slider :items="items" :speed="2" :delay="3" :pause="true" :autoplay="true" :dots="true" :arrows="false"></slider>
  </div>
 </template>
 <script>
