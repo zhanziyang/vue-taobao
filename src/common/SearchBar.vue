@@ -1,11 +1,12 @@
 <template>
+<div>
 <header class="top-bar" id="J_Header">
     <div class="top-bar-w">
         <div class="top-bar-c">
             <div class="s-input-select">
                 <div class="s-input-tab">
                     <div class="s-input-tab-txt" @click="toggleMenu">宝贝</div>
-                    <div v-if="on" class="s-input-tab-nav" id="J_TabNav">
+                    <div v-if="catagoryOn" class="s-input-tab-nav" id="J_TabNav">
                         <ul>
                             <li class="all"><span class="icon icons-baobei"></span>宝贝</li>
                             <li class="shop"><span class="icon icons-shop"></span>店铺</li>
@@ -13,7 +14,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="s-input-frame">
+                <div class="s-input-frame" @click="toggleSuggest">
                     <form class="c-form-suggest" id="J_Search" method="get" action="/h5">
                         <div class="s-form-search search-form">
                             <input type="search" name="q" class="J_autocomplete" autocomplete="off" value="">
@@ -32,23 +33,88 @@
         <div class="top-bar-btn closed" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1); display: none;">取消</div>
     </div>
 </header>
+<div v-if="suggestOn" class="suggest-container" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+    <h3>大家都在搜</h3>
+    <ul class="suggest-hotkey" data-sugg-type="2">
+        <li>项链</li>
+        <li>水杯</li>
+        <li>男士皮鞋</li>
+        <li>外套男</li>
+        <li>潍坊wlan100</li>
+        <li>针织开衫</li>
+        <li>男款秋装外套</li>
+        <li>女包</li>
+        <li>男士裤子休闲裤</li>
+        <li>风衣</li>
+        </ul>
+ </div>
+</div>
 </template>
 <script>
     export default {
         data() {
             return {
-                on: false
+                catagoryOn: false,
+                suggestOn: false
             }
         },
         methods: {
             toggleMenu() {
-                this.on = !this.on
+                this.catagoryOn = !this.catagoryOn
+            },
+            toggleSuggest() {
+                this.suggestOn = !this.suggestOn
             }
         }
 
     }
 </script>
 <style>
+    * {
+        outline: none;
+    }
+    
+    .suggest-container {
+        margin-bottom: 16px;
+        text-align: left;
+    }
+    
+    .suggest-container h3 {
+        color: #999;
+        font-size: 20px;
+        height: 48px;
+        line-height: 48px;
+        padding-left: 16px;
+        background: #eee;
+        padding-bottom: 16px;
+    }
+    
+    .suggest-container .suggest-hotkey {
+        padding: 8px 20px 0px;
+        background: #f9f9f9;
+    }
+    
+    .suggest-container .suggest-hotkey li {
+        border: 1px solid #dedede;
+        height: 52px;
+        line-height: 52px;
+        width: inherit;
+        border-radius: 28px;
+        text-align: center;
+        padding: 0 15px;
+        display: inline-block;
+        margin-right: 8px;
+        margin-bottom: 12px;
+        color: #666;
+        font-size: 28px;
+        list-style: none;
+    }
+    
+    .suggest-container {
+        background: white;
+        overflow: hidden
+    }
+    
     .icons-home,
     .icons-baobei,
     .icons-tmall,
@@ -234,10 +300,6 @@
     .icons-tmall {
         background-position: -6px -384px;
         width: 42px;
-        height: 40px
-    }
-    
-    * {
-        outline: none;
+        height: 40px;
     }
 </style>
