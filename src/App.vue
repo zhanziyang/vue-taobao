@@ -49,12 +49,12 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     @font-face {
         font-family: 'iconfont';
         /* project id 232236 */
-        src: url('//at.alicdn.com/t/font_ajm34r7ld3l0izfr.eot');
-        src: url('//at.alicdn.com/t/font_ajm34r7ld3l0izfr.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_ajm34r7ld3l0izfr.woff') format('woff'), url('//at.alicdn.com/t/font_ajm34r7ld3l0izfr.ttf') format('truetype'), url('//at.alicdn.com/t/font_ajm34r7ld3l0izfr.svg#iconfont') format('svg');
+        src: url("//at.alicdn.com/t/font_ajm34r7ld3l0izfr.eot");
+        src: url("//at.alicdn.com/t/font_ajm34r7ld3l0izfr.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_ajm34r7ld3l0izfr.woff") format("woff"), url("//at.alicdn.com/t/font_ajm34r7ld3l0izfr.ttf") format("truetype"), url("//at.alicdn.com/t/font_ajm34r7ld3l0izfr.svg#iconfont") format("svg");
     }
     
     #app {
@@ -87,7 +87,7 @@
     }
     
     li {
-        font-size: 20px;
+        font-size: 0.42667rem;
         color: #5d656b;
         flex: 1;
         text-align: center;
@@ -97,11 +97,11 @@
     
     span {
         font-family: iconfont;
-        font-size: 40px;
+        font-size: 0.85333rem;
     }
     
     p {
-        padding-top: 10px;
+        padding-top: 0.21333rem;
     }
     
     a {

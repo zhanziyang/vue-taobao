@@ -37,12 +37,12 @@
         }
     }
 </script>
-<style scoped>
+<style scoped lang="scss">
     @font-face {
         font-family: 'iconfont';
         /* project id 232236 */
-        src: url('//at.alicdn.com/t/font_l74bh6ik3ns714i.eot');
-        src: url('//at.alicdn.com/t/font_l74bh6ik3ns714i.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_l74bh6ik3ns714i.woff') format('woff'), url('//at.alicdn.com/t/font_l74bh6ik3ns714i.ttf') format('truetype'), url('//at.alicdn.com/t/font_l74bh6ik3ns714i.svg#iconfont') format('svg');
+        src: url("//at.alicdn.com/t/font_l74bh6ik3ns714i.eot");
+        src: url("//at.alicdn.com/t/font_l74bh6ik3ns714i.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_l74bh6ik3ns714i.woff") format("woff"), url("//at.alicdn.com/t/font_l74bh6ik3ns714i.ttf") format("truetype"), url("//at.alicdn.com/t/font_l74bh6ik3ns714i.svg#iconfont") format("svg");
     }
     
     .head {

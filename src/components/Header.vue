@@ -16,7 +16,7 @@
         }
     }
 </script>
-<style scoped>
+<style scoped lang="scss">
     header {
         display: block;
         width: 100%;
@@ -43,9 +43,9 @@
     }
     
     span {
-        height: 50px;
-        line-height: 50px;
-        font-size: 26px;
+        height: 0.88rem;
+        line-height: 0.88rem;
+        font-size: 0.68rem;
         display: inline-block;
         color: #F0E0DC;
     }

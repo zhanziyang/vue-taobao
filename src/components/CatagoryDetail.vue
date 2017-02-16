@@ -44,24 +44,21 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="css">
     .vertical-view {
         box-sizing: border-box;
         line-height: 0;
-        width: 10rem;
-        height: 6.734rem;
         background-color: rgba(255, 255, 255, 0);
-        margin-bottom: 10px;
+        margin-bottom: 0.505rem;
     }
     
     h2 {
         box-sizing: border-box;
         line-height: 0;
-        width: 10rem;
         height: 0.844rem;
-        background-color: rgb(255, 255, 255);
+        background-color: white;
         text-align: center;
-        border-bottom: 1px solid rgb(239, 239, 239)
+        border-bottom: 1px solid #efefef;
     }
     
     .icon {
@@ -72,8 +69,8 @@
     .title {
         box-sizing: border-box;
         line-height: 0.844rem;
-        font-size: 28px;
-        color: rgb(255, 53, 14);
+        font-size: 0.569rem;
+        color: #ff350e;
         background-color: transparent;
         margin-left: 0.141rem;
         width: 1.313rem;
@@ -89,6 +86,6 @@
     
     .stuff-plate img {
         flex: 1 1 0;
-        height: 2.916rem;
+        height: 4.6rem;
     }
 </style>

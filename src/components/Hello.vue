@@ -25,7 +25,7 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
     div {
         height: 100%;
         background-color: rgb(238, 238, 238)

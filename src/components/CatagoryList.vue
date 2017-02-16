@@ -53,11 +53,12 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
     .tmall-menu-panel {
         display: block;
         background: white;
-        margin-bottom: 0.156rem;
+        margin-bottom: 0.505rem;
+        padding: 0.156rem 0;
     }
     
     .tmall-menu-panel-ul {
@@ -68,8 +69,7 @@
     
     .tmall-menu-panel-li {
         display: inline-block;
-        flex: 1;
-        width: 20%;
+        flex: 1 1 20%;
     }
     
     .tmall-menu-panel-href {
@@ -84,15 +84,15 @@
     .tmall-menu-panel-image {
         display: block;
         margin: 0 auto 5px;
-        width: 120px;
+        width: 2.6rem;
     }
     
     span {
         box-sizing: border-box;
         line-height: 0.688rem;
         text-align: center;
-        font-size: 24px;
-        color: rgb(102, 102, 102);
+        font-size: 0.45rem;
+        color: #666666;
         background-color: transparent;
         width: 1.625rem;
         height: 0.688rem;
