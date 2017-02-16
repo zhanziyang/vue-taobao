@@ -1,7 +1,7 @@
 <template>
     <div class="vertical-view">
         <h2>
-            <img class="icon" src="//img.alicdn.com/tps/TB1t9n6LFXXXXaXXXXXXXXXXXXX-60-60.png"></img>
+            <img class="icon" src="//img.alicdn.com/tps/TB1t9n6LFXXXXaXXXXXXXXXXXXX-60-60.png">
             <span class="title">超实惠</span>
         </h2>
         <div class="stuff-plate">
