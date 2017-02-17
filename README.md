@@ -6,7 +6,7 @@
 本文将简要介绍各类工具软件的环境配置和常见的命令。
 ###vscode :stuck_out_tongue:
 Visual Studio Code是一款代码编辑器，像许多其他代码编辑器一样，VS Code的左边采用了一个共同的用户界面和资源管理器的布局，它显示了所有你可以访问的文件和文件夹,它的右边是一个编辑器，显示你打开过的文件内容。
-<center>![layout](![https://www.zybuluo.com/static/img/logo.png][1])</center>
+![layout][1]
 
 VS Code同样可以用键盘操作。最重要的键盘组合 ⇧⌘P ,这将调出命令面板。从这里，你可以访问VS Code所有的功能，包含快捷键最常见的操作。
 <center>![commander][2]</center>
