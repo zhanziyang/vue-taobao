@@ -2,7 +2,7 @@
 
 标签： vue cmd webpack
 ---
-目前的技术栈为：`vscode` `vue` `webpack` `cmder` 
+目前的技术栈为：`vscode` `vue` `webpack` `cmder` `github`
 本文将简要介绍各类工具软件的环境配置和常见的命令。
 ###vscode :stuck_out_tongue:
 Visual Studio Code是一款代码编辑器，像许多其他代码编辑器一样，VS Code的左边采用了一个共同的用户界面和资源管理器的布局，它显示了所有你可以访问的文件和文件夹,它的右边是一个编辑器，显示你打开过的文件内容。
@@ -47,7 +47,7 @@ npm install
 ```npm run dist```
 dist文件目录下就是最终生成的文件了
 ###vue项目结构
-> 
+```
 ├── build/                      # webpack配置参数文件
 │   └── ...
 ├── config/                     
@@ -69,6 +69,7 @@ dist文件目录下就是最终生成的文件了
 ├── .eslintrc.js                # eslint配置文件，用以规范团队开发编码规范
 ├── index.html                  # 主页模板
 └── package.json                # 项目文件，记载着一些命令和依赖还有简要的项目描述信息
+```
 
 ###一些坑
 使用npm安装node-sass时，容易出现报错，这是由于某些不可描述的原因造成的。需要手动安装node-sass的binary文件并设置路径。
