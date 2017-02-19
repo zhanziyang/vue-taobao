@@ -21,8 +21,8 @@
     },
 
     components: {
-      DaoJiaHeader,
-      DaoJiaMain,
+      Header,
+      Main,
       Slider
     },
 

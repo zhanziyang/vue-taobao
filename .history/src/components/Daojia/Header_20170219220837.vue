@@ -8,10 +8,8 @@
 
 <script>
   export default {
-    methods: {
-      onDownClick() {
-        this.$emit('location-select')
-      }
+    onDownClick() {
+      this.$emit('location-select')
     }
   }
 </script>

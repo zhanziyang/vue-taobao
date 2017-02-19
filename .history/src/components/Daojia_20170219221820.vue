@@ -1,16 +1,16 @@
 <template>
   <div>
     <meta name="viewport" content="width=375px,user-scalable=no">
-    <DaoJiaHeader @location-select="handleLocationSelect"></DaoJiaHeader>
-    <DaoJiaMain></DaoJiaMain>
+    <Header @location-select="handleLocationSelect"></Header>
+    <Main></Main>
     <Slider :show="showSlider" @cancel="handleSliderCancel"></Slider>
   </div>
 
 </template>
 
 <script>
-  import DaoJiaHeader from './Daojia/Header'
-  import DaoJiaMain from './Daojia/Main'
+  import Header from './Daojia/Header'
+  import Main from './Daojia/Main'
   import Slider from './Daojia/Slider'
 
   export default {
@@ -21,8 +21,8 @@
     },
 
     components: {
-      DaoJiaHeader,
-      DaoJiaMain,
+      Header,
+      Main,
       Slider
     },
 
