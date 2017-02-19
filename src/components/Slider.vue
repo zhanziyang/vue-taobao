@@ -1,10 +1,10 @@
 <template>
  <div>
-     <slider :items="items" :speed="2" :delay="3" :pause="true" :autoplay="true" :dots="true" :arrows="false"></slider>
+     <slider ref="slider" :items="items" :speed="2" :delay="3" :pause="true" :autoplay="true" :dots="true" :arrows="false"></slider>
  </div>
 </template>
 <script>
-    import Slider from 'vue-slider/slider/Slider'
+    import Slider from './slider/Slider'
     export default {
         data() {
             return {
@@ -20,6 +20,7 @@
                 }]
             }
         },
+        methods: {},
         components: {
             Slider
         }
