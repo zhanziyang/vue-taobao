@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from 'components/Hello'
 import Login from 'common/login'
 import items from 'components/itemList'
+import Rec from 'components/recommend/Rec'
 
 Vue.use(Router)
 
@@ -21,6 +22,11 @@ export default new Router({
             path: '/items',
             name: 'items',
             component: items
+        },
+        {
+            path: '/rec',
+            name: 'Rec',
+            component: Rec
         },
         {
             path: '/',

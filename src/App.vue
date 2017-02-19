@@ -11,22 +11,22 @@
           </li>
           <li>
           <router-link to="/logistic">
-           
+
               <span>&#xe811;</span>
               <p>物流</p>
-    
+
           </router-link>
                 </li>
            <li class="tab-content">
-                <router-link to="/home">
+                <router-link to="/rec">
                 <span>&#xe722;</span>
                 <p>购物车</p>
               </router-link>
           </li>
            <li class="tab-content">
-                <router-link to="/home">
+                <router-link to="/daojia">
               <span>&#xe6dc;</span>
-              <p>我的淘宝</p>
+              <p>到家</p>
                </router-link>
           </li>
            <li class="tab-content">
