@@ -1,12 +1,14 @@
 <template>
-  <div>
-  <SearchBar/>
-  <Slider></Slider>
-  <CatagoryList></CatagoryList>
-  <CatagoryDetail/>
-  <CatagoryDetail/>
-  <CatagoryDetail/>
-  </div>
+    <transition name="slide">
+        <div>
+            <SearchBar/>
+            <Slider></Slider>
+            <CatagoryList></CatagoryList>
+            <CatagoryDetail/>
+            <CatagoryDetail/>
+            <CatagoryDetail/>
+        </div>
+    </transition>
 </template>
 
 <script>
